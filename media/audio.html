@@ -1,0 +1,16 @@
+<script>
+function aud(){
+  const audio = document.getElementById("audio");
+  if(audio.paused){
+    audio.play();
+  document.getElementById("btn").innerHTML = "Play";
+  } else {
+    audio.pause();
+  document.getElementById("btn").innerHTML = "Pause";
+  }
+}
+</script>
+<audio>
+  <source src="audio.mp3">
+</audio>
+<button onclick="aud()" id="btn">Play</button>
