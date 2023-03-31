@@ -1,0 +1,42 @@
+# database
+```
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+
+    <title>Example</title>
+
+    <script>
+
+      var input = "Jan 1,2024 00:00:00"; // "Month date,Year hour:minute:second"
+
+    </script>
+
+    <script src="https://zeev-x.github.io/database/count.js"></script>
+
+  </head>
+
+  <body>
+
+    <div>
+
+      <p id="count">
+
+        <a id="day"> - </a> Days | 
+
+        <a id="hour"> - </a> Hours | 
+
+        <a id="minute"> - </a> Minutes | 
+
+        <a id="second"> - </a> Seconds
+
+      </p>
+
+    </div>
+
+  </body>
+
+</html>
+```
